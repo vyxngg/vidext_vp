@@ -1,0 +1,35 @@
+.video-player-container {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.controls {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+}
+
+.control-button {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.seek-bar,
+.volume-bar {
+  flex-grow: 1;
+  margin: 0 10px;
+  appearance: none;
+  width: 100px;
+}
+
+.seek-bar {
+  width: auto;
+}
